@@ -74,7 +74,7 @@ function App() {
   // 카트에 제품 추가
   const addToCart = (product) => {
     setCartItems((prevItems) => {
-      const existingItem = prevItems.find((item) => item.id === product.id);
+      const existingItem = prevItems.find((item) => item.id === product.id);c
     if(existingItem) {
       return prevItems.map((item) => item.id === product.id ? {...item, quantity : item.quantity + 1} : item)
     } else {
