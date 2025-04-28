@@ -15,7 +15,7 @@ function Invitation() {
             </p>
 
             <div>
-                <p>정정정과 진진진의 장남 <strong>정진영</strong></p>
+                <p>정정정과 진진진의 장남 <strong>마에다 리쿠</strong></p>
                 <p>오종준과 하미영의 차녀 <strong>오지은</strong></p>
             </div>
 
