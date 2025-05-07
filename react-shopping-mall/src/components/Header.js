@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { SearchBar} from "../components/SearchBar";
+import SearchBar from "../components/SearchBar"; // SearchBar 컴포넌트 import
 
 function Header({cartItemCount, onSearch}) {
     return (

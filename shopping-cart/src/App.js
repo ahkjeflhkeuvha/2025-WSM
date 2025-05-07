@@ -87,6 +87,9 @@ function App() {
     <div>
       {/* 여기에 UI를 넣을 수 있습니다 */}
       <h1>React 쇼핑몰</h1>
+      <Cart />
+      <Product />
+      <SearchAndFilter />
     </div>
   );
 }

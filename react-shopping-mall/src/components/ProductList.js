@@ -3,7 +3,6 @@ import ProductItem from "./ProductItem";
 function ProductList({products, addToCart, categoryFilter, searchTerm}) {
     // 카테고리 필터 적용
     let filteredProducts = categoryFilter ? products.filter(product => product.category === categoryFilter) : products;
-
     // 검색어 필터
     if(searchTerm) {
         filteredProducts = filteredProducts.filter(product => 

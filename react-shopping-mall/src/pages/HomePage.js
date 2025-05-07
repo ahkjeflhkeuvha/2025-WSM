@@ -1,7 +1,9 @@
 import React from "react";
-import ProductList from "./components/ProductList";
+import ProductList from "../components/ProductList";
 
-function HomePage({procuts, addToCart, searchTerm }) {
+
+function HomePage({products, addToCart, searchTerm }) {
+    console.log(products);
     return (
         <div>
             <div>

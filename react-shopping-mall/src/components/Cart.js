@@ -14,6 +14,10 @@ function Cart({ cartItems, updateQuantity, removeFromCart, clearCart }) {
         alert("결제되었습니다!");
     }
 
+    const formatPrice = (price) => {
+        return price.toString().replace(/\B(?=(\d{3})+(?!\c))/g, ",") + "원";
+    }
+
     return (
         <div>
             <h2>장바구니</h2>
@@ -31,7 +35,7 @@ function Cart({ cartItems, updateQuantity, removeFromCart, clearCart }) {
                     <span></span>
                 </div>
                 <div>{
-                    cartItems.map((cartItem) => {
+                    cartItems.map((item) => {
                         return <CartItem 
                             key={item.product.id} 
                             item={item} 
