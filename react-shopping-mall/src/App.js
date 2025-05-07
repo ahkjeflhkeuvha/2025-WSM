@@ -58,7 +58,7 @@ function AppContent() {
           />
          
           <Route
-            path="/category/:categoryName"
+            path="/category/:id"
             element={
               <HomePage
                 products={products}
